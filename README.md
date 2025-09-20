@@ -28,18 +28,6 @@ Test cases cover:
 
 ---
 
-## Automated Tests (Postman)
-
-- Import collection: `postman/JSONPlaceholder_Tests.postman_collection.json`  
-- Includes tests for GET and POST endpoints  
-- Sample assertion:  
-
-```javascript
-pm.test("Status code is 200", () => pm.response.to.have.status(200));
-# jsonplaceholder-qa-tests
-
----
-
 ## How to Run
 
 Manual: Follow steps in qa/testcases.md
@@ -55,5 +43,19 @@ API Manual Testing
 Postman Automated Testing
 
 QA Documentation & Repo Structuring
+
+## Automated Tests (Postman)
+
+- Import collection: `postman/JSONPlaceholder_Tests.postman_collection.json`  
+- Includes tests for GET and POST endpoints  
+- Sample assertion:  
+
+```javascript
+pm.test("Status code is 200", () => pm.response.to.have.status(200));
+# jsonplaceholder-qa-tests
+
+---
+
+
 
 
