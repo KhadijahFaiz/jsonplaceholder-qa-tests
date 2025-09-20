@@ -38,12 +38,15 @@ Test cases cover:
 pm.test("Status code is 200", () => pm.response.to.have.status(200));
 # jsonplaceholder-qa-tests
 
+---
+
 ## How to Run
 
 Manual: Follow steps in qa/testcases.md
 
 Automated: Import Postman collection → Click Run → Check results
 
+---
 
 Skills Demonstrated
 
