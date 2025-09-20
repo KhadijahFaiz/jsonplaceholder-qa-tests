@@ -44,6 +44,8 @@ Postman Automated Testing
 
 QA Documentation & Repo Structuring
 
+---
+
 ## Automated Tests (Postman)
 
 - Import collection: `postman/JSONPlaceholder_Tests.postman_collection.json`  
