@@ -36,7 +36,7 @@ Automated: Import Postman collection → Click Run → Check results
 
 ---
 
-Skills Demonstrated
+## Skills Demonstrated
 
 API Manual Testing
 
